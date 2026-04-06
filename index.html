@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashley Lebvoua – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Epilogue:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- CURSEUR CUSTOM -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">AL.</span>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">ASHLEY</div>
+    <div class="hero-content">
+      <p class="hero-tag">Étudiante en informatique · 20 ans</p>
+      <h1 class="hero-title">
+        Ashley<br>
+        <span class="outline">Lebvoua</span>
+      </h1>
+      <p class="hero-desc">
+        Étudiante en informatique, j’avance avec une approche rigoureuse, structurée et réfléchie.
+        Je m’intéresse à la logique des systèmes, au développement web et à la construction de projets
+        clairs, cohérents et bien conçus, tout en continuant à apprendre et à consolider mes bases.
+      </p>
+      <a href="#projects" class="hero-cta">Voir mes projets ↓</a>
+    </div>
+    <div class="hero-year">2025 — 2<sup>e</sup> année</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="section-label">// 01 — À propos</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Structurée.<br>Exigeante.<br>En progression.</h2>
+          <p>
+            Je m’appelle Ashley Lebvoua, j’ai 20 ans et j’étudie l’informatique à l’Université de Pise, en Italie.
+            Ce qui m’attire dans ce domaine, ce n’est pas seulement le fait de coder, mais surtout de comprendre
+            ce que je fais réellement : la logique des systèmes, la structure des projets et la cohérence des solutions.
+          </p>
+          <p>
+            J’ai une approche sérieuse et réfléchie du travail. J’aime construire proprement, apprendre avec méthode
+            et développer des bases solides. Je suis encore en formation, donc encore en construction, mais j’avance
+            avec exigence et la volonté de devenir une personne fiable, capable de réaliser des projets clairs,
+            utiles et bien pensés.
+          </p>
+        </div>
+        <div class="about-skills">
+          <div class="skill-block">
+            <span class="skill-num">01</span>
+            <span class="skill-name">Développement web</span>
+          </div>
+          <div class="skill-block">
+            <span class="skill-num">02</span>
+            <span class="skill-name">Logique et structure</span>
+          </div>
+          <div class="skill-block">
+            <span class="skill-num">03</span>
+            <span class="skill-name">Organisation et rigueur</span>
+          </div>
+          <div class="skill-block">
+            <span class="skill-num">04</span>
+            <span class="skill-name">Apprentissage continu</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-label">// 02 — Projets</div>
+
+    <!-- Projet 1 -->
+    <div class="project-item in-progress" data-index="01">
+      <div class="project-meta">
+        <span class="project-num">01</span>
+        <span class="project-tag">En cours · Web App · Gestion</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">CoutureFlow <span class="wip-badge">En cours</span></h3>
+        <p class="project-desc">
+          Application web en cours de développement pour la gestion d’un atelier de couture :
+          centralisation des clients, suivi des commandes et organisation de l’activité dans une
+          interface claire et structurée.
+        </p>
+        <div class="project-tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </div>
+
+    <!-- Projet 2 -->
+    <div class="project-item" data-index="02">
+      <div class="project-meta">
+        <span class="project-num">02</span>
+        <span class="project-tag">Web · Quiz interactif</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Quiz Culture Générale</h3>
+        <p class="project-desc">
+          Projet d’interface interactive de questions-réponses, conçu pour offrir une expérience fluide,
+          un retour immédiat et une navigation simple, avec une attention portée à la clarté de l’ensemble.
+        </p>
+        <div class="project-tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </div>
+
+    <!-- Projet 3 -->
+    <div class="project-item in-progress" data-index="03">
+      <div class="project-meta">
+        <span class="project-num">03</span>
+        <span class="project-tag">En cours · Visualisation</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">AlgoViz <span class="wip-badge">En cours</span></h3>
+        <p class="project-desc">
+          Projet en développement autour de la visualisation des algorithmes — tris, recherches, graphes —
+          avec l’objectif de rendre leur fonctionnement plus concret, lisible et compréhensible à l’écran.
+        </p>
+        <div class="project-tech">
+          <span>JavaScript</span><span>Animations</span><span>Algo</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-label">// 03 — Contact</div>
+    <div class="contact-inner">
+      <h2 class="contact-title">Travaillons ensemble</h2>
+      <p class="contact-sub">
+        Je suis ouverte aux échanges, aux projets, aux stages et aux opportunités
+        qui me permettent de continuer à apprendre et à progresser.
+      </p>
+      <a href="mailto:lebvoua.ashley@email.com" class="contact-btn">
+        lebvoua.ashley@email.com
+      </a>
+    </div>
+    <div class="contact-footer">
+      <span>© 2025 Ashley Lebvoua</span>
+      <span>Informatique · Rigueur · Progression</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
